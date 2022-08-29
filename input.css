@@ -23,23 +23,6 @@ main {
   margin: 0 auto;
 }
 
-.header-logo {
-  max-width: 128px;
-  width: 100%;
-}
-.header-menu__item{
-  position: relative;
-  color: #232323;
-}
-.header-menu__item.active::before{
-content: '';
-position: absolute;
-width: 16px;
-height: 2px;
-bottom: -9px;
-  background: #DC2E3F;
-    border-radius: 5px;
-}
 
 input:checked ~ .dot {
   transform: translateX(100%) translateY(-50%);

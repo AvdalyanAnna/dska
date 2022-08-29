@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./**/*.html'],
+
   theme: {
     extend: {
+        screens: {
+            'hover-hover': {'raw': '(hover: hover)'},
+        },
       colors: { 
           dark: {
           100: "#d3d3d3",
