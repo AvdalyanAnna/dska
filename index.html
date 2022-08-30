@@ -23,13 +23,14 @@
             <a href="#" class="header-logo max-w-[128px] w-full">
                 <img src="img/logo.svg" alt="logo">
             </a>
+            <!--  TODO::scroll mt-[0] -->
             <nav class="header-menu mt-[44px]  mb-[22px] flex-1">
-                <ul class="header-menu__list flex xl:justify-between justify-end items-center gap-[8px] ">
-                    <li class="header-menu__item xl:block hidden pt-[20px] pb-[36px] relative text-[#232323] active">
+                <ul class="header-menu__list flex xl:justify-between justify-end items-center gap-[0px] ">
+                    <li class="header-menu__item xl:block hidden  group hover:bg-[#f5f5f5] pt-[20px] pb-[20px] relative px-[10px]  relative text-[#232323] cursor-pointer">
                         <a href="#" class="header-menu__link text-sm uppercase text-dark-500 font-semibold ">Главная</a>
-                        <span class="absolute left-0 bottom-[29px] w-[16px] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
+                        <span class="absolute left-[10px] bottom-[13px] w-[16px] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
                     </li>
-                    <li class="header-menu__item  group hover:bg-[#f5f5f5] pt-[20px] pb-[36px] relative px-[10px]  relative text-[#232323]">
+                    <li class="header-menu__item  group hover:bg-[#f5f5f5] pt-[20px] pb-[20px] relative px-[10px]  relative text-[#232323] cursor-pointer">
                         <a href="#"
                            class="header-menu__link text-sm uppercase text-grey-500 font-semibold flex items-center gap-2 group-hover:text-dark-500">
                             О компании
@@ -41,7 +42,7 @@
                         <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
                     </li>
 
-                    <li class="header-menu__item xl:block hidden  group hover:bg-[#f5f5f5] pt-[20px] pb-[36px] relative px-[10px]  relative text-[#232323]">
+                    <li class="header-menu__item xl:block hidden  group hover:bg-[#f5f5f5] pt-[20px] pb-[20px] relative px-[10px]  relative text-[#232323] cursor-pointer">
                         <a href="#"
                            class="header-menu__link text-sm uppercase text-grey-500 font-semibold flex items-center gap-2 group-hover:text-dark-500">
                             услуги
@@ -52,7 +53,7 @@
                         </a>
                         <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
                     </li>
-                    <li class="header-menu__item xl:block hidden group hover:bg-[#f5f5f5] pt-[20px] pb-[36px] relative px-[10px]  relative text-[#232323]">
+                    <li class="header-menu__item xl:block hidden group hover:bg-[#f5f5f5] pt-[20px] pb-[20px] relative px-[10px]  relative text-[#232323] cursor-pointer">
                         <a href="#"
                            class="header-menu__link text-sm uppercase text-grey-500 font-semibold flex items-center gap-2 group-hover:text-dark-500">
                             База знаний
@@ -63,9 +64,9 @@
                         </a>
                         <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
                     </li>
-                    <li class="header-menu__item xl:block hidden group pt-[20px] pb-[36px]  relative text-[#232323]">
+                    <li class="header-menu__item xl:block hidden  group hover:bg-[#f5f5f5] pt-[20px] pb-[20px] relative px-[10px]  relative text-[#232323] cursor-pointer">
                         <a href="#"
-                           class="header-menu__link text-sm uppercase text-grey-500 font-semibold group-hover:text-dark-500">Новости</a>
+                           class="header-menu__link text-sm uppercase text-grey-500 font-semibold group-hover:text-dark-500 ">Новости</a>
                         <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
                     </li>
                 </ul>
@@ -118,7 +119,7 @@
                     <div class="dropdown-menu hidden group-hover:block  z-4  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px]   bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div class="" role="none">
                             <a href="#"
-                               class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold pl-2 pr-4 py-2.5    flex items-center uppercase"
+                               class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold pl-2 pr-4 py-2.5  hover:bg-[#fafafa]  flex items-center uppercase"
                                role="menuitem" tabindex="-1" id="menu-item-17">
                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -193,6 +194,83 @@
                                           fill="#E51D35"/>
                                 </svg>
                                 Eng
+                            </a>
+                            <a href="#"
+                               class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold pl-2 pr-4 py-2.5  hover:bg-[#fafafa]  flex items-center uppercase"
+                               role="menuitem" tabindex="-1" id="menu-item-18">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.40895 3.46702C0.893059 4.21581 0.500996 5.05658 0.263266 5.96024H3.90231L1.40895 3.46702Z"
+                                          fill="#29337A"/>
+                                    <path d="M5.75953 0.320216C4.8378 0.588651 3.98416 1.01699 3.23246 1.57568L5.75953 4.10275V0.320216Z"
+                                          fill="#29337A"/>
+                                    <path d="M3.4204 14.5577C4.12549 15.0511 4.91322 15.4331 5.75953 15.6795V12.219L3.4204 14.5577Z"
+                                          fill="#29337A"/>
+                                    <path d="M0.355075 10.3621C0.619591 11.2189 1.02493 12.0138 1.54295 12.721L3.90177 10.3621H0.355075Z"
+                                          fill="#29337A"/>
+                                    <path d="M1.54092 3.28134C1.4962 3.34248 1.45212 3.40449 1.40892 3.46715L3.90228 5.96038H0.263233C0.204256 6.18483 0.156122 6.41361 0.116467 6.64553H4.90539L1.54092 3.28134Z"
+                                          fill="white"/>
+                                    <path d="M3.23483 14.4257C3.29569 14.4711 3.35828 14.5143 3.4204 14.5577L5.7595 12.2189V15.6794C5.98423 15.7451 6.21246 15.8019 6.44465 15.8475V11.216L3.23483 14.4257Z"
+                                          fill="white"/>
+                                    <path d="M0.177335 9.67698C0.226989 9.90914 0.285594 10.1378 0.35494 10.3621H3.90167L1.54285 12.721C1.79939 13.0715 2.08387 13.4004 2.39297 13.7046L6.42054 9.67698H0.177335Z"
+                                          fill="white"/>
+                                    <path d="M5.75953 0.320216V4.10275L3.23243 1.57581C2.88404 1.83489 2.55839 2.12251 2.25665 2.43388L6.44455 6.62179V0.152204C6.2125 0.198075 5.98426 0.254923 5.75953 0.320216Z"
+                                          fill="white"/>
+                                    <path d="M5.75953 10.338L5.73552 10.3621H5.75953V10.338Z" fill="#D32030"/>
+                                    <path d="M6.42067 9.67698H6.44465V9.65286L6.42067 9.67698Z" fill="#D32030"/>
+                                    <path d="M9.49938 6.6454H9.47627V6.66864L9.49938 6.6454Z" fill="#D32030"/>
+                                    <path d="M5.78314 5.96038L5.75953 5.93663V5.96038H5.78314Z" fill="#D32030"/>
+                                    <path d="M6.44465 6.62175V6.6454H6.4683L6.44465 6.62175Z" fill="#D32030"/>
+                                    <path d="M10.1613 13.9086V15.7019C11.0186 15.4619 11.8179 15.0836 12.5329 14.5907L10.5898 12.6476C10.4345 13.1931 10.3777 13.4752 10.1613 13.9086Z"
+                                          fill="#252F6C"/>
+                                    <path d="M10.6 3.66394L12.7212 1.54271C11.9591 0.984631 11.0946 0.559331 10.1613 0.297855V2.14004C10.4107 2.63962 10.4317 3.01922 10.6 3.66394Z"
+                                          fill="#252F6C"/>
+                                    <path d="M14.4242 12.7676C14.9584 12.0489 15.3748 11.2378 15.6452 10.3621H12.0188L14.4242 12.7676Z"
+                                          fill="#252F6C"/>
+                                    <path d="M15.7368 5.96038C15.494 5.03763 15.0902 4.18108 14.558 3.42054L12.0179 5.96038H15.7368Z"
+                                          fill="#252F6C"/>
+                                    <path d="M11.067 9.81253L14.2481 12.9937C14.3079 12.9189 14.3672 12.8444 14.4244 12.7677L12.0189 10.3623H15.6453C15.7144 10.1381 15.7731 9.90931 15.8227 9.67712H11.1184C11.1107 9.77426 11.0762 9.71603 11.067 9.81253Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.5169 4.06512L12.9018 1.67989C12.8421 1.63354 12.7822 1.58743 12.7212 1.54271L10.6 3.66394C10.622 3.74781 10.4964 3.97923 10.5169 4.06512Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.1613 1.99264V0.29772C9.93684 0.234825 9.70833 0.181523 9.47614 0.138051V0.964803C9.73106 1.24118 9.95957 1.58831 10.1613 1.99264Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M11.013 6.6454H15.8837C15.8441 6.41348 15.7959 6.18483 15.7369 5.96024H12.018L14.5581 3.4204C14.3084 3.06367 14.0309 2.72819 13.7277 2.41733L10.8666 5.27813C10.9437 5.79706 10.9782 6.09843 11.013 6.6454Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.4742 12.5317L12.533 14.5908C12.8755 14.355 13.1979 14.0925 13.4988 13.8075L10.7907 11.0993C10.7043 11.6002 10.6018 12.0839 10.4742 12.5317Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M9.47627 14.9401V15.8615C9.70843 15.8183 9.93684 15.7648 10.1614 15.7019V13.9086C9.95957 14.3131 9.73106 14.6641 9.47627 14.9401Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.8666 5.27813L13.7274 2.41733C13.4699 2.15281 13.1938 1.90664 12.9017 1.67989L10.6538 3.92819C10.7537 4.34579 10.7991 4.82378 10.8666 5.27813Z"
+                                          fill="#D71F28"/>
+                                    <path d="M7.60071 0.0098632C7.734 0.00341159 7.86688 0 7.99987 0C7.8661 0 7.73298 0.00341159 7.60071 0.0098632Z"
+                                          fill="#D32030"/>
+                                    <path d="M7.99987 16C7.86685 16 7.73396 15.9964 7.60095 15.9899C7.73322 15.9966 7.8661 16 7.99987 16Z"
+                                          fill="#D32030"/>
+                                    <path d="M7.99987 16C8.50461 16 8.9975 15.9511 9.47624 15.8615V14.9401C9.056 15.3956 8.5644 16 7.99987 16Z"
+                                          fill="#D32030"/>
+                                    <path d="M15.8835 6.6454H11.0762C11.1399 7.64874 11.1322 8.68049 11.0532 9.67698H15.8227C15.9381 9.13596 16 8.57538 16 8.00014C16 7.53805 15.9588 7.0861 15.8835 6.6454Z"
+                                          fill="#D71F28"/>
+                                    <path d="M11.067 9.81253C11.0225 10.2852 10.8677 10.6535 10.7906 11.0994L13.4987 13.8075C13.7666 13.5536 14.0171 13.282 14.248 12.9937L11.067 9.81253Z"
+                                          fill="#D71F28"/>
+                                    <path d="M9.47627 1.02429V0.138186C8.99767 0.0488769 8.50478 0 7.99987 0C8.5644 0 9.056 0.568924 9.47627 1.02429Z"
+                                          fill="#D32030"/>
+                                    <path d="M10.1613 14.2546C10.3777 13.8211 10.5632 13.322 10.7186 12.7766L10.1613 12.2193V14.2546Z"
+                                          fill="#29337A"/>
+                                    <path d="M10.7879 3.47597C10.6194 2.83124 10.4108 2.24513 10.1613 1.74555V4.10235L10.7879 3.47597Z"
+                                          fill="#29337A"/>
+                                    <path d="M11.2222 9.96764C11.2313 9.87114 11.2395 9.77426 11.2474 9.67698H10.9316L11.2222 9.96764Z"
+                                          fill="white"/>
+                                    <path d="M10.1613 4.10238V1.74545C9.95943 1.34112 9.73106 0.993751 9.47614 0.717615V5.10559L10.8521 3.72964C10.8314 3.64374 10.8096 3.5596 10.7879 3.47573L10.1613 4.10238Z"
+                                          fill="white"/>
+                                    <path d="M9.49938 6.6454H11.2703C11.2356 6.09846 11.1803 5.56034 11.1033 5.04155L9.49938 6.6454Z"
+                                          fill="white"/>
+                                    <path d="M9.47627 15.2823C9.73119 15.0059 9.95957 14.6588 10.1614 14.2544V12.2191L10.7187 12.7764C10.8465 12.3284 10.9538 11.8498 11.0405 11.3489L9.47631 9.78487L9.47627 15.2823Z"
+                                          fill="white"/>
+                                    <path d="M9.47627 15.2823L9.47631 9.78487L11.0403 11.349C11.1172 10.903 11.1778 10.4404 11.2221 9.96764L10.9314 9.67698H11.2472C11.3262 8.68046 11.3339 7.64871 11.2702 6.6454H9.49927L11.1031 5.04155C11.0355 4.58706 10.9519 4.14748 10.852 3.72974L9.47631 5.10569V0.717717C9.056 0.262219 8.5644 0 7.99987 0C7.86685 0 7.73396 0.00341159 7.60071 0.0098632C7.20723 0.0295558 6.82135 0.0779598 6.44465 0.152238V6.62175L2.25665 2.43388C1.99932 2.69941 1.75997 2.98233 1.54092 3.28134L4.90539 6.64553H0.116467C0.0414457 7.0861 0 7.53805 0 8.00014C0 8.57551 0.0621517 9.13596 0.177335 9.67698H6.42067L2.39308 13.7046C2.65681 13.9637 2.93761 14.2049 3.23486 14.4257L6.44455 11.216V15.8475C6.82121 15.9218 7.20736 15.9702 7.60084 15.9899C7.73386 15.9964 7.86675 16 7.99976 16C8.5644 16 9.056 15.7378 9.47627 15.2823Z"
+                                          fill="#E51D35"/>
+                                </svg>
+                                Ge
                             </a>
                         </div>
                     </div>
@@ -442,6 +520,82 @@
                             <a href="#"
                                class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold  py-2.5    flex items-center uppercase"
                                role="menuitem" tabindex="-1" id="menu-item-18">
+                                <svg width="20" height="20" viewBox="0 0 16 16" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.40895 3.46702C0.893059 4.21581 0.500996 5.05658 0.263266 5.96024H3.90231L1.40895 3.46702Z"
+                                          fill="#29337A"/>
+                                    <path d="M5.75953 0.320216C4.8378 0.588651 3.98416 1.01699 3.23246 1.57568L5.75953 4.10275V0.320216Z"
+                                          fill="#29337A"/>
+                                    <path d="M3.4204 14.5577C4.12549 15.0511 4.91322 15.4331 5.75953 15.6795V12.219L3.4204 14.5577Z"
+                                          fill="#29337A"/>
+                                    <path d="M0.355075 10.3621C0.619591 11.2189 1.02493 12.0138 1.54295 12.721L3.90177 10.3621H0.355075Z"
+                                          fill="#29337A"/>
+                                    <path d="M1.54092 3.28134C1.4962 3.34248 1.45212 3.40449 1.40892 3.46715L3.90228 5.96038H0.263233C0.204256 6.18483 0.156122 6.41361 0.116467 6.64553H4.90539L1.54092 3.28134Z"
+                                          fill="white"/>
+                                    <path d="M3.23483 14.4257C3.29569 14.4711 3.35828 14.5143 3.4204 14.5577L5.7595 12.2189V15.6794C5.98423 15.7451 6.21246 15.8019 6.44465 15.8475V11.216L3.23483 14.4257Z"
+                                          fill="white"/>
+                                    <path d="M0.177335 9.67698C0.226989 9.90914 0.285594 10.1378 0.35494 10.3621H3.90167L1.54285 12.721C1.79939 13.0715 2.08387 13.4004 2.39297 13.7046L6.42054 9.67698H0.177335Z"
+                                          fill="white"/>
+                                    <path d="M5.75953 0.320216V4.10275L3.23243 1.57581C2.88404 1.83489 2.55839 2.12251 2.25665 2.43388L6.44455 6.62179V0.152204C6.2125 0.198075 5.98426 0.254923 5.75953 0.320216Z"
+                                          fill="white"/>
+                                    <path d="M5.75953 10.338L5.73552 10.3621H5.75953V10.338Z" fill="#D32030"/>
+                                    <path d="M6.42067 9.67698H6.44465V9.65286L6.42067 9.67698Z" fill="#D32030"/>
+                                    <path d="M9.49938 6.6454H9.47627V6.66864L9.49938 6.6454Z" fill="#D32030"/>
+                                    <path d="M5.78314 5.96038L5.75953 5.93663V5.96038H5.78314Z" fill="#D32030"/>
+                                    <path d="M6.44465 6.62175V6.6454H6.4683L6.44465 6.62175Z" fill="#D32030"/>
+                                    <path d="M10.1613 13.9086V15.7019C11.0186 15.4619 11.8179 15.0836 12.5329 14.5907L10.5898 12.6476C10.4345 13.1931 10.3777 13.4752 10.1613 13.9086Z"
+                                          fill="#252F6C"/>
+                                    <path d="M10.6 3.66394L12.7212 1.54271C11.9591 0.984631 11.0946 0.559331 10.1613 0.297855V2.14004C10.4107 2.63962 10.4317 3.01922 10.6 3.66394Z"
+                                          fill="#252F6C"/>
+                                    <path d="M14.4242 12.7676C14.9584 12.0489 15.3748 11.2378 15.6452 10.3621H12.0188L14.4242 12.7676Z"
+                                          fill="#252F6C"/>
+                                    <path d="M15.7368 5.96038C15.494 5.03763 15.0902 4.18108 14.558 3.42054L12.0179 5.96038H15.7368Z"
+                                          fill="#252F6C"/>
+                                    <path d="M11.067 9.81253L14.2481 12.9937C14.3079 12.9189 14.3672 12.8444 14.4244 12.7677L12.0189 10.3623H15.6453C15.7144 10.1381 15.7731 9.90931 15.8227 9.67712H11.1184C11.1107 9.77426 11.0762 9.71603 11.067 9.81253Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.5169 4.06512L12.9018 1.67989C12.8421 1.63354 12.7822 1.58743 12.7212 1.54271L10.6 3.66394C10.622 3.74781 10.4964 3.97923 10.5169 4.06512Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.1613 1.99264V0.29772C9.93684 0.234825 9.70833 0.181523 9.47614 0.138051V0.964803C9.73106 1.24118 9.95957 1.58831 10.1613 1.99264Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M11.013 6.6454H15.8837C15.8441 6.41348 15.7959 6.18483 15.7369 5.96024H12.018L14.5581 3.4204C14.3084 3.06367 14.0309 2.72819 13.7277 2.41733L10.8666 5.27813C10.9437 5.79706 10.9782 6.09843 11.013 6.6454Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.4742 12.5317L12.533 14.5908C12.8755 14.355 13.1979 14.0925 13.4988 13.8075L10.7907 11.0993C10.7043 11.6002 10.6018 12.0839 10.4742 12.5317Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M9.47627 14.9401V15.8615C9.70843 15.8183 9.93684 15.7648 10.1614 15.7019V13.9086C9.95957 14.3131 9.73106 14.6641 9.47627 14.9401Z"
+                                          fill="#E7E7E7"/>
+                                    <path d="M10.8666 5.27813L13.7274 2.41733C13.4699 2.15281 13.1938 1.90664 12.9017 1.67989L10.6538 3.92819C10.7537 4.34579 10.7991 4.82378 10.8666 5.27813Z"
+                                          fill="#D71F28"/>
+                                    <path d="M7.60071 0.0098632C7.734 0.00341159 7.86688 0 7.99987 0C7.8661 0 7.73298 0.00341159 7.60071 0.0098632Z"
+                                          fill="#D32030"/>
+                                    <path d="M7.99987 16C7.86685 16 7.73396 15.9964 7.60095 15.9899C7.73322 15.9966 7.8661 16 7.99987 16Z"
+                                          fill="#D32030"/>
+                                    <path d="M7.99987 16C8.50461 16 8.9975 15.9511 9.47624 15.8615V14.9401C9.056 15.3956 8.5644 16 7.99987 16Z"
+                                          fill="#D32030"/>
+                                    <path d="M15.8835 6.6454H11.0762C11.1399 7.64874 11.1322 8.68049 11.0532 9.67698H15.8227C15.9381 9.13596 16 8.57538 16 8.00014C16 7.53805 15.9588 7.0861 15.8835 6.6454Z"
+                                          fill="#D71F28"/>
+                                    <path d="M11.067 9.81253C11.0225 10.2852 10.8677 10.6535 10.7906 11.0994L13.4987 13.8075C13.7666 13.5536 14.0171 13.282 14.248 12.9937L11.067 9.81253Z"
+                                          fill="#D71F28"/>
+                                    <path d="M9.47627 1.02429V0.138186C8.99767 0.0488769 8.50478 0 7.99987 0C8.5644 0 9.056 0.568924 9.47627 1.02429Z"
+                                          fill="#D32030"/>
+                                    <path d="M10.1613 14.2546C10.3777 13.8211 10.5632 13.322 10.7186 12.7766L10.1613 12.2193V14.2546Z"
+                                          fill="#29337A"/>
+                                    <path d="M10.7879 3.47597C10.6194 2.83124 10.4108 2.24513 10.1613 1.74555V4.10235L10.7879 3.47597Z"
+                                          fill="#29337A"/>
+                                    <path d="M11.2222 9.96764C11.2313 9.87114 11.2395 9.77426 11.2474 9.67698H10.9316L11.2222 9.96764Z"
+                                          fill="white"/>
+                                    <path d="M10.1613 4.10238V1.74545C9.95943 1.34112 9.73106 0.993751 9.47614 0.717615V5.10559L10.8521 3.72964C10.8314 3.64374 10.8096 3.5596 10.7879 3.47573L10.1613 4.10238Z"
+                                          fill="white"/>
+                                    <path d="M9.49938 6.6454H11.2703C11.2356 6.09846 11.1803 5.56034 11.1033 5.04155L9.49938 6.6454Z"
+                                          fill="white"/>
+                                    <path d="M9.47627 15.2823C9.73119 15.0059 9.95957 14.6588 10.1614 14.2544V12.2191L10.7187 12.7764C10.8465 12.3284 10.9538 11.8498 11.0405 11.3489L9.47631 9.78487L9.47627 15.2823Z"
+                                          fill="white"/>
+                                    <path d="M9.47627 15.2823L9.47631 9.78487L11.0403 11.349C11.1172 10.903 11.1778 10.4404 11.2221 9.96764L10.9314 9.67698H11.2472C11.3262 8.68046 11.3339 7.64871 11.2702 6.6454H9.49927L11.1031 5.04155C11.0355 4.58706 10.9519 4.14748 10.852 3.72974L9.47631 5.10569V0.717717C9.056 0.262219 8.5644 0 7.99987 0C7.86685 0 7.73396 0.00341159 7.60071 0.0098632C7.20723 0.0295558 6.82135 0.0779598 6.44465 0.152238V6.62175L2.25665 2.43388C1.99932 2.69941 1.75997 2.98233 1.54092 3.28134L4.90539 6.64553H0.116467C0.0414457 7.0861 0 7.53805 0 8.00014C0 8.57551 0.0621517 9.13596 0.177335 9.67698H6.42067L2.39308 13.7046C2.65681 13.9637 2.93761 14.2049 3.23486 14.4257L6.44455 11.216V15.8475C6.82121 15.9218 7.20736 15.9702 7.60084 15.9899C7.73386 15.9964 7.86675 16 7.99976 16C8.5644 16 9.056 15.7378 9.47627 15.2823Z"
+                                          fill="#E51D35"/>
+                                </svg>
+                            </a>
+                            <a href="#"
+                               class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold  py-2.5    flex items-center uppercase"
+                               role="menuitem" tabindex="-1" id="menu-item-199">
                                 <svg width="20" height="20" viewBox="0 0 16 16" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.40895 3.46702C0.893059 4.21581 0.500996 5.05658 0.263266 5.96024H3.90231L1.40895 3.46702Z"
@@ -829,8 +983,8 @@
                           d="M9.66924 0.0878379C9.8742 -0.0292793 10.1258 -0.0292793 10.3308 0.0878379L19.6641 5.42117C19.8719 5.53987 20 5.76076 20 6V6.95985C20 13.0031 15.9939 18.3141 10.1831 19.9744C10.0634 20.0085 9.93656 20.0085 9.81685 19.9744C4.00613 18.3141 0 13.0031 0 6.95985V6C0 5.76076 0.128191 5.53987 0.335908 5.42117L9.66924 0.0878379ZM9.42907 14.2809L15.1873 7.08313L14.1461 6.2502L9.23767 12.3858L5.76016 9.48785L4.90657 10.5121L9.42907 14.2809Z"
                           fill="#DC2E3F"/>
                 </svg>
-                <div class="sm:max-w-full max-w-[266px] sm:text-left text-center"><span
-                        class="font-[800]">Вернем деньги</span> за месяц, если сервер недоступен более часа.
+                <div class="sm:max-w-full max-w-[266px] sm:text-left text-center">
+                    <a href="#" class="font-[800]">Вернем деньги</a> за месяц, если сервер недоступен более часа.
                 </div>
             </div>
         </div>
@@ -920,7 +1074,7 @@
         </div>
     </div>
     <!-- Home adv end -->
-    <div style="background-image: url(img/bg.png);">
+    <div style="background-image: url(img/bg.svg);">
         <!-- Home calc start -->
         <div class="wrapper">
             <div class="flex md:flex-row flex-col bg-white rounded-[5px] drop-shadow-[0_5px_74px_rgba(0,0,0,0.12)] mb-[95px] relative">
@@ -1391,13 +1545,14 @@
                 <div class="tariffs-list sm:mb-0 mb-[39px] pt-[20px]">
                     <div class="swiper tariffsSwiper lg:px-[20px] md:px-[43px] px-[21px] pt-[20px]">
                         <div class="swiper-wrapper  pb-[97px] ">
-                            <div class="swiper-slide w-[270px] ">
+                            <div class="swiper-slide w-[270px]">
                                 <!-- tariffs item start -->
-                                <div class="tariffs-item flex flex-col  h-[328px] relative pt-[37px] pb-[45px] pl-[45px] pr-[43px] bg-white rounded-[5px] drop-shadow-[0_14px_74px_rgba(0,0,0,0.09)]">
-                                    <h3 class="text-[16px] leading-[20px] tracking-[-0.03em] font-bold mb-[11px]">
+                                <div class="tariffs-item flex flex-col h-[328px] relative pt-[37px] pb-[45px] pl-[45px] pr-[43px] bg-white rounded-[5px] drop-shadow-[0_14px_74px_rgba(0,0,0,0.09)]">
+
+                                    <h3 class="flex justify-between flex-1 items-start gap-[14px] w-full my-[12px] ">
                                         1CPU-1Gb-10GB</h3>
                                     <!-- tariffs info start -->
-                                    <div class="flex justify-between flex-1 items-start gap-[14px] w-full my-[8px] ">
+                                    <div class="flex flex-1 justify-between items-start gap-[14px] w-full my-[12px] ">
                                         <div>
                                             <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
                                                     src="img/svg/tarif-1.svg" alt=""> 1 ядро
@@ -1405,7 +1560,7 @@
                                             <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
                                                     src="img/svg/tarif-2.svg" alt="">1 Гб
                                             </div>
-                                            <div class="flex gap-[17px] text-[14px]  text-dark-400"><img
+                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
                                                     src="img/svg/tarif-3.svg" alt="">10 Гб
                                             </div>
                                         </div>
@@ -1416,71 +1571,16 @@
                                     <!-- tariffs info end -->
 
                                     <!--toggle block start-->
-                                    <div class="flex items-center justify-start w-full">
+                                    <div class="flex flex-1 items-center justify-start w-full  ">
 
-                                        <label for="toggleB" class="flex items-center cursor-pointer">
-                                            <!-- toggle -->
-                                            <div class=" font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400 ">
-                                                SDD
-                                            </div>
-                                            <div class="relative mx-[8px]">
-                                                <!-- input -->
-                                                <input type="checkbox" id="toggleB" class="sr-only">
-                                                <!-- line -->
-                                                <div class="block bg-[#D6D6D6] w-[43px] h-[22px] rounded-[40px]"></div>
-                                                <!-- dot -->
-                                                <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
-                                            </div>
-                                            <!-- label -->
-                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
-                                                NVMe
-                                            </div>
-                                        </label>
-
-                                    </div>
-                                    <!--toggle block end-->
-                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)]  w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
-                                        выбрать
-                                        <img src="img/svg/btn-arrow.svg" alt="arrow" class="absolute right-[17px]">
-                                    </button>
-                                </div>
-                                <!-- tariffs item end -->
-                            </div>
-                            <div class="swiper-slide w-[270px]">
-                                <!-- tariffs item start -->
-                                <div class="tariffs-item flex flex-col h-[328px] relative w-full pt-[37px] pb-[45px] pl-[45px] pr-[43px] bg-white rounded-[5px] drop-shadow-[0_14px_74px_rgba(0,0,0,0.09)]">
-                                    <h3 class="text-[16px] leading-[20px] tracking-[-0.03em] font-bold mb-[11px]">
-                                        2CPU-2Gb-20GB</h3>
-                                    <!-- tariffs info start -->
-                                    <div class="flex flex-1 justify-between items-start gap-[14px] w-full my-[8px] ">
-                                        <div>
-                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
-                                                    src="img/svg/tarif-1.svg" alt=""> 2 ядро
-                                            </div>
-                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
-                                                    src="img/svg/tarif-2.svg" alt="">2 Гб
-                                            </div>
-                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
-                                                    src="img/svg/tarif-3.svg" alt="">20 Гб
-                                            </div>
-                                        </div>
-                                        <div class="text-primary-900 text-[18px] leading-[22px] font-[600] flex justify-center items-center w-full max-w-[84px] h-[84px] border-[1px] border-primary-900 border-dashed rounded-full ">
-                                            410 ₽
-                                        </div>
-                                    </div>
-                                    <!-- tariffs info end -->
-
-                                    <!--toggle block start-->
-                                    <div class="flex items-center justify-start w-full   ">
-
-                                        <label for="toggleB2" class="flex items-center cursor-pointer">
+                                        <label for="toggleB3" class="flex items-center cursor-pointer">
                                             <!-- toggle -->
                                             <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 SDD
                                             </div>
                                             <div class="relative mx-[8px]">
                                                 <!-- input -->
-                                                <input type="checkbox" id="toggleB2" class="sr-only">
+                                                <input type="checkbox" id="toggleB3" class="sr-only">
                                                 <!-- line -->
                                                 <div class="block bg-[#D6D6D6] w-[43px] h-[22px] rounded-[40px]"></div>
                                                 <!-- dot -->
@@ -1495,12 +1595,68 @@
                                     </div>
                                     <!--toggle block end-->
 
-                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
+                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] hover:mt-[20px] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
                                         выбрать
                                         <img src="img/svg/btn-arrow.svg" alt="arrow" class="absolute right-[17px]">
                                     </button>
                                 </div>
                                 <!-- tariffs item end -->
+                            </div>
+                            <div class="swiper-slide w-[270px]">
+                                <!-- tariffs item start -->
+                                <div class="tariffs-item flex flex-col h-[328px] relative pt-[37px] pb-[45px] pl-[45px] pr-[43px] bg-white rounded-[5px] drop-shadow-[0_14px_74px_rgba(0,0,0,0.09)]">
+                                    <h3 class="flex justify-between flex-1 items-start gap-[14px] w-full my-[12px] ">
+                                        2CPU-2Gb-20GB</h3>
+                                    <!-- tariffs info start -->
+                                    <div class="flex flex-1 justify-between items-start gap-[9px] w-full my-[12px] ">
+                                        <div>
+                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
+                                                    src="img/svg/tarif-1.svg" alt=""> 2 ядро
+                                            </div>
+                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
+                                                    src="img/svg/tarif-2.svg" alt="">2 Гб
+                                            </div>
+                                            <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
+                                                    src="img/svg/tarif-3.svg" alt="">20 Гб
+                                            </div>
+                                        </div>
+                                        <div class="text-primary-900 text-[18px] leading-[22px] font-[600] flex justify-center items-center w-full max-w-[84px] h-[84px] border-[1px] border-primary-900  border-dashed rounded-full ">
+                                            410 ₽
+                                        </div>
+                                    </div>
+                                    <!-- tariffs info end -->
+
+                                    <!--toggle block start-->
+                                    <div class="flex items-center justify-start w-full">
+
+                                        <label for="toggleB4" class="flex items-center cursor-pointer">
+                                            <!-- toggle -->
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
+                                                SDD
+                                            </div>
+                                            <div class="relative mx-[8px]">
+                                                <!-- input -->
+                                                <input type="checkbox" id="toggleB4" class="sr-only">
+                                                <!-- line -->
+                                                <div class="block bg-[#D6D6D6] w-[43px] h-[22px] rounded-[40px]"></div>
+                                                <!-- dot -->
+                                                <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
+                                            </div>
+                                            <!-- label -->
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
+                                                NVMe
+                                            </div>
+                                        </label>
+
+                                    </div>
+                                    <!--toggle block end-->
+
+                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] hover:mt-[20px] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
+                                        выбрать
+                                        <img src="img/svg/btn-arrow.svg" alt="arrow" class="absolute right-[17px]">
+                                    </button>
+                                </div>
+                                <!-- tariffs item start -->
                             </div>
                             <div class="swiper-slide w-[270px]">
                                 <!-- tariffs item start -->
@@ -1511,7 +1667,7 @@
                                     <h3 class="flex justify-between flex-1 items-start gap-[14px] w-full my-[12px] ">
                                         3CPU-3Gb-30GB</h3>
                                     <!-- tariffs info start -->
-                                    <div class="flex justify-between items-start gap-[14px] w-full my-[12px] ">
+                                    <div class="flex flex-1 justify-between items-start gap-[14px] w-full my-[12px] ">
                                         <div>
                                             <div class="flex gap-[17px] text-[14px]  mb-[12px] text-dark-400"><img
                                                     src="img/svg/tarif-1.svg" alt=""> 3 ядро
@@ -1554,7 +1710,7 @@
                                     </div>
                                     <!--toggle block end-->
 
-                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
+                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] hover:mt-[20px] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
                                         выбрать
                                         <img src="img/svg/btn-arrow.svg" alt="arrow" class="absolute right-[17px]">
                                     </button>
@@ -1610,7 +1766,7 @@
                                     </div>
                                     <!--toggle block end-->
 
-                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
+                                    <button class="btn transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] hover:mt-[20px] w-full bg-primary-500 text-white rounded-[6px] mt-[24px] text-[13px] leading-[16px] py-[13px] px-[26px] relative flex items-center uppercase font-[600]">
                                         выбрать
                                         <img src="img/svg/btn-arrow.svg" alt="arrow" class="absolute right-[17px]">
                                     </button>
@@ -1787,13 +1943,13 @@
                                                      viewBox="0 0 15 15"
                                                      fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.9377 5.41458C14.8576 5.16815 14.6446 4.98855 14.3882 4.95134L10.0403 4.31964L8.09584 0.379424C7.98118 0.147105 7.74455 0 7.4855 0C7.22641 0 6.98978 0.147105 6.87516 0.379424L4.93081 4.31959L0.582768 4.9513C0.326401 4.98855 0.113366 5.16815 0.0333247 5.41453C-0.0467164 5.66096 0.0200299 5.93144 0.205568 6.11226L3.35181 9.17878L2.6088 13.5096C2.56501 13.765 2.66996 14.023 2.87955 14.1753C2.99811 14.2615 3.13855 14.3053 3.27967 14.3053C3.38798 14.3053 3.49674 14.2795 3.59634 14.2271L7.48546 12.1826L11.3745 14.2271C11.4747 14.2798 11.5844 14.3049 11.6931 14.3053C12.0686 14.3048 12.3728 14.0003 12.3728 13.6247C12.3728 13.5724 12.3669 13.5215 12.3557 13.4726L11.6191 9.17883L14.7654 6.11226C14.951 5.93144 15.0177 5.66096 14.9377 5.41458Z"
-                                                          fill="#DC2E3F"/>
+                                                          fill="#A2A2A2"/>
                                                 </svg>
                                                 <svg width="15" height="15" class="w-[12px] h-[12px] text-yellow-400"
                                                      viewBox="0 0 15 15"
                                                      fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M14.9377 5.41458C14.8576 5.16815 14.6446 4.98855 14.3882 4.95134L10.0403 4.31964L8.09584 0.379424C7.98118 0.147105 7.74455 0 7.4855 0C7.22641 0 6.98978 0.147105 6.87516 0.379424L4.93081 4.31959L0.582768 4.9513C0.326401 4.98855 0.113366 5.16815 0.0333247 5.41453C-0.0467164 5.66096 0.0200299 5.93144 0.205568 6.11226L3.35181 9.17878L2.6088 13.5096C2.56501 13.765 2.66996 14.023 2.87955 14.1753C2.99811 14.2615 3.13855 14.3053 3.27967 14.3053C3.38798 14.3053 3.49674 14.2795 3.59634 14.2271L7.48546 12.1826L11.3745 14.2271C11.4747 14.2798 11.5844 14.3049 11.6931 14.3053C12.0686 14.3048 12.3728 14.0003 12.3728 13.6247C12.3728 13.5724 12.3669 13.5215 12.3557 13.4726L11.6191 9.17883L14.7654 6.11226C14.951 5.93144 15.0177 5.66096 14.9377 5.41458Z"
-                                                          fill="#DC2E3F"/>
+                                                          fill="#A2A2A2"/>
                                                 </svg>
                                             </div>
                                             <p class="font-[400] text-[14px] text-[#A2A2A2] whitespace-nowrap">день
@@ -1806,7 +1962,9 @@
                                     доволен сервисом. Все на самом высшем уровен. Пользуюсь постоянно - вот уже пол
                                     года, и
                                     больше.</p>
-                                <img src="img/svg/review-1.svg" alt="">
+                                <a href="#">
+                                    <img src="img/svg/review-1.svg" alt="">
+                                </a>
                                 <img class="absolute bottom-[33px] right-[33px]" src="img/svg/review-before.svg" alt="">
                             </div>
                         </div>
@@ -1859,7 +2017,7 @@
                                     5
                                     балов
                                     из 5. Очень быстро отвечают в службе поддержки, что очень по душе!</p>
-                                <img src="img/svg/review-1.svg" alt="">
+                                <a href="#"><img src="img/svg/review-1.svg" alt=""></a>
                                 <img class="absolute bottom-[33px] right-[33px]" src="img/svg/review-before.svg" alt="">
                             </div>
                         </div>
@@ -1912,7 +2070,7 @@
                                     Сервис
                                     использую постоянно!
                                     Рад быть с вами!</p>
-                                <img src="img/svg/review-2.svg" alt="">
+                                <a href="#"><img src="img/svg/review-2.svg" alt=""></a>
                                 <img class="absolute bottom-[33px] right-[33px]" src="img/svg/review-before.svg" alt="">
                             </div>
                         </div>
@@ -1965,7 +2123,7 @@
                                     Сервис
                                     использую постоянно!
                                     Рад быть с вами!</p>
-                                <img src="img/svg/review-2.svg" alt="">
+                                <a href="#"> <img src="img/svg/review-2.svg" alt=""></a>
                                 <img class="absolute bottom-[33px] right-[33px]" src="img/svg/review-before.svg" alt="">
                             </div>
                         </div>
@@ -2013,7 +2171,7 @@
             <div class="xl:px-[0] sm:px-[38px] px-[20px]">
                 <div class="flex justify-between items-center">
                     <div class="lg:block hidden"></div>
-                    <div class="title font-[500] sm:text-[28px] text-[22px] sm:leading-[34px] leading-[27px] text-dark-400">
+                    <div class="title font-[500] sm:text-[28px] text-[22px] sm:leading-[34px] leading-[27px] text-dark-400 lg:absolute lg:left-[50%] lg:translate-x-[-50%]">
                         Новости сервиса
                     </div>
                     <a class="more sm:block hidden font-[500] text-[14px] leading-[17px] text-black border-b-[1px] border-dashed hover:border-solid cursor-pointer border-primary-500">Все
@@ -2035,8 +2193,6 @@
                                 <div class="flex flex-col">
                                     <div class="title max-w-[265px]  font-[700] mb-[24px] text-[16px] leading-[20px] text-black">
                                         Добавлен шаблон
-                                        <br>
-                                        Ubuntu 21.10
                                     </div>
                                     <p class="max-w-[270px] flex-1 text-[13px] min-h-[73px] leading-[16px] text-gray-400">
                                         Добавлен шаблон
@@ -2046,7 +2202,7 @@
                                         <img src="img/svg/date.svg" alt="">12.05.2021
                                     </div>
                                     <a href="#"
-                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)]">
+                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)]" >
                                         <img src="img/svg/btn-more__big.svg" alt="">
                                     </a>
                                 </div>
@@ -2060,7 +2216,7 @@
                                 </div>
                                 <div class="flex flex-col">
                                     <div class="title max-w-[265px] font-[700] mb-[24px] text-[16px] leading-[20px] text-black">
-                                        Добавлен рецепт установки панели управления Hestia CP
+                                        Добавлен рецепт установки панели управления Hestia CP панели управления Hestia CP
                                     </div>
                                     <p class="max-w-[270px] flex-1 text-[13px] min-h-[73px] leading-[16px]  text-gray-400">
                                         Hestia CP - форк
@@ -2098,7 +2254,7 @@
                     <p class="text-[14px] leading-[21px] text-dark-400 tracking-[-0.03em] mb-[32px]">Пример основного
                         текста. Почему стоит купить VPS виртуальный сервер в VDSka.ru: Сервис VDSka.ru позволяет
                         разместить VDS (виртуальный сервер)
-                        <a href="#" class="font-[600] border-b-[1px] border-primary-500 border-dashed">пример ссылки</a>.
+                        <a href="#" class="font-[600] border-b-[1px] border-primary-500 border-dashed hover:border-solid transition-all:">пример ссылки</a>.
                         Высокоскоростные SSD и NVMe накопители позволят увеличить скорость работы вашего ресурса. В
                         любой момент вы можете изменить параметры своего сервера, без переплат и проволочек.
                         Самостоятельно, через личный кабинет.</p>
@@ -2185,26 +2341,26 @@
                         </div>
                         <ul class="footer-menu__list font-[400] text-[13px] leading-[34px] tracking-[-0.03em] text-[#2f2f2f]">
 
-                            <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Домой</a>
+                            <li class="footer-menu__item ">
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Домой</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Облачный VPS</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Облачный VPS</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">О нас</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">О нас</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">FAQ по VPS</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">FAQ по VPS</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Партнерская программа</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Партнерская программа</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Регистрация</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Регистрация</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Авторизация</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Авторизация</a>
                             </li>
                         </ul>
                     </div>
@@ -2215,33 +2371,33 @@
                         </div>
                         <ul class="footer-menu__list font-[400] text-[13px] leading-[34px] tracking-[-0.03em] text-[#2f2f2f]">
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">
                                     Партнерская программа
                                 </a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Договор-оферта</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Договор-оферта</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Политика возврата средств</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Политика возврата средств</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Политика конфиденциальности</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Политика конфиденциальности</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Испытание на скорость</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Испытание на скорость</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">условия и положения</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">условия и положения</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Программа вознаграждения</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Программа вознаграждения</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Согласие на использование</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">Согласие на использование</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">файлов cookie</a>
+                                <a href="#" class="text-[#2F2F2F] border-b-[0] hover:border-b-[1px] border-solid border-[#2F2F2F] transition-all pb-[4px]">файлов cookie</a>
                             </li>
                         </ul>
                     </div>
@@ -2251,10 +2407,10 @@
                             <span class="absolute w-[26px] h-[1px] left-0 bottom-0 bg-[#C8C8C8]  "></span>
                         </div>
                         <a href="#"
-                           class="block mb-1 footer-phone font-bold text-[18px] leading-[27px] tracking-[-0.03em] whitespace-nowrap">+7
+                           class="block mb-1 footer-phone font-bold text-[18px] leading-[27px] tracking-[-0.03em] transition-all hover:text-primary-500 whitespace-nowrap">+7
                             499 112-46-68</a>
                         <a href="#"
-                           class="footer-email  font-bold text-sm border-b-2 border-dotted border-primary-500 whitespace-nowrap">support@VDSka.ru</a>
+                           class="footer-email  font-bold text-sm border-b-2 border-dotted border-primary-500 whitespace-nowrap transition-all hover:border-solid">support@VDSka.ru</a>
                         <div class="footer-socs my-8  flex items-center gap-5">
                             <a href="#" class="footer-soc">
                                 <svg width="29" height="17" viewBox="0 0 29 17" fill="none"
