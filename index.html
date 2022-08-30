@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<header class="header md:block hidden fixed w-full bg-white z-[3] ">
+<header class="header md:block hidden fixed w-full bg-white z-[5] ">
     <div class="wrapper">
         <div class="header-inner flex items-center justify-between gap-10 xl:px-0 px-[43px] ">
             <a href="#" class="header-logo max-w-[128px] w-full">
@@ -410,14 +410,14 @@
         </div>
     </div>
 </header>
-<header class="header md:hidden block fixed w-full bg-white z-[3] ">
+<header class="header md:hidden block fixed w-full bg-white z-[5] ">
     <div class="wrapper">
         <div class="header-inner flex items-center justify-between gap-10 xl:px-0 px-[20px] py-[22px] ">
             <a href="#" class="header-logo max-w-[108px] w-full">
                 <img src="img/logo.svg" alt="logo">
             </a>
             <div class="header-btns flex items-center gap-[27px] mr-[9px]">
-                <div class="dropdown transition-all group relative z-[3] hover:shadow-[0_14px_74px_rgba(0,0,0,0.2)] rounded-[6px]">
+                <div class="header-btns flex  items-center gap-[27px] mr-[9px]"><div class="dropdown transition-all group relative z-[3] hover:shadow-[0_14px_74px_rgba(0,0,0,0.2)] rounded-[6px]">
                     <button
                             class="btn btn-primary-500  text-xs px-[10px] rounded-md  gap-3 transition-all   py-2.5 flex items-center uppercase group-hover:border-white">
                         <svg width="20" height="20" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -437,7 +437,7 @@
                                     fill="#6C6C6C"/>
                         </svg>
                     </button>
-                    <div class="dropdown-menu hidden group-hover:block px-[10px] z-4  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px]   bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <div class="dropdown-menu hidden  px-[10px] z-4  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px]   bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div class="" role="none">
                             <a href="#"
                                class="btn btn-primary-500   text-xs  rounded-md  gap-3  font-extrabold  py-2.5    flex items-center uppercase"
@@ -518,24 +518,117 @@
                         </div>
                     </div>
                 </div>
-                <button
-                        class="btn   py-2.5  flex items-center">
-                    <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.3741 14.2963L10.259 12.7043C9.96522 12.554 9.78261 12.252 9.78261 11.916V10.789C9.85728 10.6957 9.93587 10.5893 10.0171 10.472C10.4211 9.88867 10.7449 9.23933 10.9803 8.539C11.4404 8.32333 11.7391 7.85833 11.7391 7.33333V6C11.7391 5.679 11.6217 5.368 11.413 5.125V3.352C11.4313 3.16867 11.503 2.07733 10.7309 1.177C10.0611 0.396 8.97424 0 7.5 0C6.02576 0 4.93891 0.396 4.26913 1.17667C3.49696 2.077 3.5687 3.16867 3.58696 3.352V5.125C3.37826 5.368 3.26087 5.679 3.26087 6V7.33333C3.26087 7.739 3.4412 8.11733 3.74902 8.36967C4.04772 9.57867 4.67283 10.4897 4.8913 10.782V11.885C4.8913 12.2077 4.71913 12.5037 4.44228 12.6583L1.53326 14.2803C0.587283 14.808 0 15.8193 0 16.9207V18C0 19.582 4.90598 20 7.5 20C10.094 20 15 19.582 15 18V16.9857C15 15.8397 14.3768 14.809 13.3741 14.2963Z"
-                              fill="#303030"/>
-                    </svg>
-                </button>
-                <button class="py-2.5">
-                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="3.15" cy="3.15" r="3.15" fill="#303030"/>
-                        <circle cx="13.0484" cy="3.15" r="3.15" fill="#303030"/>
-                        <circle cx="3.15" cy="14.8502" r="3.15" fill="#303030"/>
-                        <circle cx="13.0484" cy="14.8502" r="3.15" fill="#303030"/>
-                    </svg>
-                </button>
-
-
+                    <button
+                            class="btn   py-2.5  flex items-center">
+                        <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.3741 14.2963L10.259 12.7043C9.96522 12.554 9.78261 12.252 9.78261 11.916V10.789C9.85728 10.6957 9.93587 10.5893 10.0171 10.472C10.4211 9.88867 10.7449 9.23933 10.9803 8.539C11.4404 8.32333 11.7391 7.85833 11.7391 7.33333V6C11.7391 5.679 11.6217 5.368 11.413 5.125V3.352C11.4313 3.16867 11.503 2.07733 10.7309 1.177C10.0611 0.396 8.97424 0 7.5 0C6.02576 0 4.93891 0.396 4.26913 1.17667C3.49696 2.077 3.5687 3.16867 3.58696 3.352V5.125C3.37826 5.368 3.26087 5.679 3.26087 6V7.33333C3.26087 7.739 3.4412 8.11733 3.74902 8.36967C4.04772 9.57867 4.67283 10.4897 4.8913 10.782V11.885C4.8913 12.2077 4.71913 12.5037 4.44228 12.6583L1.53326 14.2803C0.587283 14.808 0 15.8193 0 16.9207V18C0 19.582 4.90598 20 7.5 20C10.094 20 15 19.582 15 18V16.9857C15 15.8397 14.3768 14.809 13.3741 14.2963Z"
+                                  fill="#303030"/>
+                        </svg>
+                    </button>
+                    <button class="py-2.5">
+                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="3.15" cy="3.15" r="3.15" fill="#303030"/>
+                            <circle cx="13.0484" cy="3.15" r="3.15" fill="#303030"/>
+                            <circle cx="3.15" cy="14.8502" r="3.15" fill="#303030"/>
+                            <circle cx="13.0484" cy="14.8502" r="3.15" fill="#303030"/>
+                        </svg>
+                    </button></div>
+                <div class="header-btns hidden items-center gap-[33px] mr-[9px]">
+                    <div class="footer-socs  flex items-center gap-5">
+                        <a href="#" class="footer-soc">
+                            <svg width="29" height="17" viewBox="0 0 29 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.7115 13.0369C27.0807 12.2769 26.368 11.5984 25.6787 10.9422C25.4365 10.7116 25.186 10.4731 24.9447 10.2363L24.9445 10.2361C24.6199 9.9179 24.4611 9.69204 24.4445 9.52522C24.4282 9.36124 24.5396 9.11795 24.796 8.75835C25.1794 8.21746 25.5881 7.67565 25.9835 7.15173C26.3349 6.68599 26.6982 6.20437 27.0464 5.72002L27.1246 5.61127C27.804 4.66602 28.5064 3.6886 28.8829 2.4975C28.9904 2.15599 29.102 1.65063 28.8327 1.20699C28.5633 0.763227 28.0639 0.631705 27.712 0.571467C27.5401 0.54186 27.3769 0.539411 27.2251 0.539411L22.8181 0.535483C22.0562 0.522729 21.5276 0.885753 21.2396 1.61476C21.009 2.19699 20.7368 2.87174 20.4213 3.51181C19.8178 4.74749 19.051 6.17072 17.9394 7.35653L17.89 7.40936C17.8144 7.49055 17.6907 7.62333 17.6272 7.65379C17.5068 7.57772 17.3679 7.14267 17.3742 6.91476C17.3744 6.90912 17.3744 6.90354 17.3744 6.89796L17.3705 1.77925C17.3705 1.75323 17.3687 1.72721 17.3653 1.70142C17.2664 0.971157 17.0737 0.239074 15.9239 0.0109887C15.8871 0.00364395 15.8496 0 15.8121 0H11.2278C10.3654 0 9.90917 0.397014 9.54344 0.82745C9.43758 0.952937 9.1563 1.28613 9.2996 1.69345C9.4446 2.10561 9.87666 2.18788 10.0185 2.21487C10.5181 2.31018 10.7764 2.594 10.8564 3.1366C11.0145 4.19089 11.0338 5.31873 10.9174 6.68423C10.885 7.05084 10.8246 7.32948 10.7272 7.56121C10.7002 7.62538 10.6765 7.66512 10.66 7.68852C10.6336 7.67782 10.5925 7.65732 10.5357 7.6182C10.1846 7.37674 9.92005 7.00136 9.6642 6.63845C8.64229 5.18812 7.7827 3.58628 7.03601 1.7407C6.7285 0.984423 6.15043 0.562015 5.40934 0.551083C3.99739 0.527455 2.69154 0.528024 1.41847 0.552905C0.818024 0.563381 0.396956 0.753377 0.166767 1.11771C-0.0637049 1.48273 -0.0552654 1.94812 0.191915 2.5012C1.95889 6.45085 3.5633 9.32406 5.39393 11.8175C6.68291 13.573 7.98044 14.7915 9.47729 15.6524C11.05 16.5568 12.8236 17.0001 14.8813 17C15.1153 17 15.3533 16.9942 15.5946 16.9827C16.8641 16.9246 17.3806 16.417 17.4369 15.1741C17.4685 14.5172 17.5413 13.9851 17.7936 13.5228C17.8642 13.3934 17.9438 13.3066 18.0066 13.2907C18.0733 13.274 18.1916 13.315 18.3232 13.401C18.5637 13.558 18.7709 13.7709 18.9412 13.9579C19.1138 14.1478 19.2883 14.3441 19.4571 14.5339C19.8164 14.9379 20.1879 15.3558 20.5771 15.7544C21.4575 16.6564 22.4724 17.0701 23.5949 16.9835L27.628 16.9854C27.6281 16.9854 27.6282 16.9854 27.6282 16.9854C27.641 16.9854 27.6538 16.985 27.6666 16.9841C28.1318 16.953 28.534 16.6941 28.7702 16.2737C29.0546 15.7674 29.0503 15.1261 28.7585 14.5576C28.454 13.9666 28.0589 13.4578 27.7115 13.0369ZM27.7642 15.7027C27.7086 15.8017 27.64 15.8197 27.6046 15.824L23.5723 15.8222C23.5722 15.8222 23.5721 15.8222 23.5719 15.8222C23.556 15.8222 23.5401 15.8228 23.5243 15.8242C22.7299 15.8907 22.0547 15.61 21.4017 14.941C21.0314 14.5617 20.669 14.1542 20.3185 13.7601C20.1478 13.568 19.9712 13.3694 19.7938 13.1742C19.5738 12.9327 19.3019 12.6551 18.9525 12.427C18.4293 12.0857 17.9958 12.096 17.7243 12.1648C17.4557 12.2328 17.0738 12.427 16.7807 12.9647C16.401 13.6604 16.3172 14.4109 16.2831 15.1199C16.2634 15.5535 16.1904 15.6681 16.16 15.6972C16.12 15.7353 15.9866 15.8024 15.5413 15.8228C13.4017 15.924 11.606 15.5388 10.0511 14.6445C8.69836 13.8665 7.51388 12.749 6.32358 11.128C4.54364 8.70375 2.97752 5.89635 1.24572 2.02527C1.18296 1.88504 1.16359 1.79753 1.15798 1.75067C1.20216 1.73609 1.28848 1.7169 1.43983 1.71411C2.69997 1.68958 3.99218 1.68889 5.39138 1.71235C5.58294 1.7152 5.80106 1.77299 5.96623 2.17922C6.7464 4.10759 7.64761 5.78578 8.72153 7.30984C9.00666 7.71437 9.36157 8.21791 9.88317 8.57666C10.3609 8.90553 10.7486 8.88981 10.9898 8.81876C11.2311 8.74764 11.566 8.55008 11.7915 8.01328C11.937 7.66728 12.025 7.27767 12.0686 6.7854C12.193 5.32482 12.1709 4.11049 11.9992 2.96511C11.8781 2.14449 11.4566 1.55168 10.7926 1.24895C10.9105 1.18723 11.0434 1.16149 11.2279 1.16149H15.7522C16.0068 1.21889 16.0572 1.2863 16.0745 1.30936C16.1478 1.40734 16.1897 1.63913 16.2153 1.82024L16.2191 6.89176C16.2089 7.37793 16.444 8.45619 17.2443 8.75186C17.2509 8.7543 17.2575 8.75658 17.2642 8.75874C17.9928 8.9981 18.4748 8.48107 18.7335 8.20328L18.7796 8.15397C19.9971 6.85498 20.817 5.33718 21.4576 4.02566C21.7914 3.3484 22.0742 2.64786 22.3132 2.044C22.4329 1.74116 22.5417 1.69128 22.8015 1.69681C22.8051 1.69692 22.8086 1.69692 22.8122 1.69692L27.2248 1.70085C27.3274 1.70085 27.4345 1.70204 27.5176 1.71634C27.7279 1.75232 27.8145 1.79616 27.843 1.81432C27.846 1.84797 27.8453 1.94476 27.7818 2.14677C27.4617 3.1596 26.8431 4.02014 26.1883 4.93122L26.1101 5.04014C25.7698 5.51339 25.4105 5.98955 25.0632 6.45011C24.6627 6.98081 24.2488 7.5295 23.8563 8.08326C23.0172 9.26007 23.091 10.041 24.1381 11.0677C24.3856 11.3105 24.6392 11.552 24.8846 11.7856C25.5802 12.4479 26.2373 13.0735 26.8237 13.7798C27.1307 14.1518 27.4787 14.5986 27.7323 15.091C27.8646 15.3487 27.8322 15.5816 27.7642 15.7027Z" fill="#9B9B9B"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-soc">
+                            <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.41221 22H4.02645C3.46092 22 3.00089 21.5213 3.00089 20.9328V12.9863H1.02557C0.460037 12.9863 0 12.5074 0 11.9191V8.51402C0 7.92555 0.460037 7.44685 1.02557 7.44685H3.00089V5.7417C3.00089 4.05098 3.51109 2.61253 4.47617 1.58212C5.4456 0.547012 6.80039 0 8.39406 0L10.9762 0.00436399C11.5408 0.00537109 12 0.48407 12 1.07153V4.23309C12 4.82156 11.5401 5.30026 10.9748 5.30026L9.23623 5.30093C8.70602 5.30093 8.57101 5.41154 8.54214 5.44545C8.49456 5.50168 8.43794 5.66063 8.43794 6.09955V7.44669H10.8441C11.0252 7.44669 11.2007 7.49318 11.3516 7.5808C11.6769 7.76996 11.8792 8.12764 11.8792 8.51419L11.8779 11.9193C11.8779 12.5074 11.4179 12.9861 10.8523 12.9861H8.43794V20.9328C8.43794 21.5213 7.97774 22 7.41221 22ZM4.24034 20.7103H7.19832V12.4089C7.19832 12.016 7.5056 11.6964 7.88305 11.6964H10.6384L10.6396 8.73659H7.88289C7.50544 8.73659 7.19832 8.41701 7.19832 8.02408V6.09955C7.19832 5.59567 7.24752 5.02264 7.61303 4.59195C8.05468 4.07129 8.75071 4.0112 9.23591 4.0112L10.7605 4.01053V1.29376L8.3931 1.28973C5.83192 1.28973 4.24034 2.99573 4.24034 5.7417V8.02408C4.24034 8.41684 3.93322 8.73659 3.55577 8.73659H1.23945V11.6964H3.55577C3.93322 11.6964 4.24034 12.016 4.24034 12.4089V20.7103Z" fill="#9B9B9B"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-soc">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.293553 15.1211C2.16466 16.3505 4.34229 17 6.59066 17C9.8832 17 12.9004 15.6905 15.0873 13.3129C17.1799 11.0373 18.331 7.97968 18.2737 4.87671C19.067 4.17399 20 2.83219 20 1.52439C20 1.02307 19.4745 0.704839 19.0484 0.960296C18.3032 1.41367 17.6236 1.53224 16.9247 1.32909C15.4974 -0.111226 13.3728 -0.414636 11.5825 0.584522C10.0179 1.45639 9.14807 3.0519 9.22638 4.79563C6.58308 4.46171 4.14103 3.08939 2.43834 0.956808C2.15877 0.608934 1.62826 0.649912 1.40595 1.04399C0.585756 2.49827 0.594177 4.18358 1.30742 5.54456C0.968062 5.60647 0.758383 5.90203 0.758383 6.222C0.758383 7.58996 1.35289 8.84719 2.31034 9.7051C2.13182 9.88296 2.07288 10.1471 2.14866 10.3825C2.56971 11.6921 3.52294 12.7157 4.71449 13.2283C3.41853 13.8691 1.9853 14.0827 0.709542 13.9206C0.0493484 13.8282 -0.276538 14.7471 0.293553 15.1211ZM6.76328 13.4524C7.23569 13.0766 6.98475 12.2937 6.39192 12.2806C5.34774 12.2579 4.39703 11.7252 3.80504 10.8874C4.09051 10.8682 4.38608 10.8228 4.66734 10.7444C5.30816 10.5648 5.27785 9.60746 4.62692 9.47232C3.44547 9.22645 2.51834 8.3354 2.17056 7.18803C2.48802 7.26911 2.81138 7.31445 3.1339 7.32055C3.77304 7.32404 4.01472 6.47572 3.49347 6.12087C2.31876 5.31962 1.81772 3.90458 2.14951 2.57412C4.20082 4.72588 6.98391 6.02235 9.92783 6.16882C10.3497 6.19585 10.6663 5.7852 10.5737 5.36932C10.1737 3.57415 11.1421 2.31605 12.1821 1.73626C13.2111 1.16082 14.8633 0.98122 16.1298 2.35702C16.5062 2.76767 17.7761 2.78337 18.4219 2.6273C18.1323 3.19227 17.6868 3.72847 17.27 4.03013C17.0923 4.15917 16.9904 4.37365 17.0013 4.59772C17.1369 7.46179 16.1062 10.3093 14.1736 12.4096C12.2267 14.5256 9.53458 15.6913 6.5915 15.6913C5.421 15.6913 4.27324 15.4943 3.18864 15.1142C4.48545 14.8543 5.71742 14.2859 6.76328 13.4524Z" fill="#9B9B9B"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <button class="close">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z" fill="#303030"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
+        </div>
+    </div>
+    <div class="hidden fixed top-[103px] h-[calc(100vh-100px)] w-full bg-[#303030] overflow-auto flex flex-col">
+        <nav class="header-menu flex-1 flex items-center justify-center mt-[44px]  mb-[22px] flex-1">
+            <ul class="header-menu__list flex flex-col xl:justify-between justify-end items-center gap-[8px] ">
+                <li class="header-menu__item   py-[7px] relative  ]">
+                    <a href="#" class="header-menu__link text-[22px] leading-[24px] text-[#fff] font-[500]">Главная</a>
+                </li>
+                <li class="header-menu__item   py-[7px] relative px-[10px]  relative text-[#232323]">
+                    <a href="#"
+                       class="flex items-center gap-2 header-menu__link text-[22px] leading-[24px] text-[#fff] font-[500]">
+                        О компании
+                        <svg class="group-hover:rotate-[180deg] fill-[#6C6C6C] group-hover:fill-[#303030]" width="8"
+                             height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 4.04527L1.24885 2.86379L3.22581 4.81825V0H5.03225V4.5632L6.75113 2.86379L8 4.04527L4.00007 8L0 4.04527Z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header-menu__item   py-[7px] relative px-[10px]  relative text-[#232323]">
+                    <a href="#"
+                       class="flex items-center gap-2 header-menu__link text-[22px] leading-[24px] text-[#fff] font-[500]">
+                        База знаний
+                        <svg class="rotate-[180deg] fill-[#6C6C6C] fill-[#fff]" width="8"
+                             height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 4.04527L1.24885 2.86379L3.22581 4.81825V0H5.03225V4.5632L6.75113 2.86379L8 4.04527L4.00007 8L0 4.04527Z"/>
+                        </svg>
+                    </a>
+                    <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
+                    <ul class="flex flex-col justify-center items-center mt-[25px] gap-[10px]">
+                        <li>
+                            <a href="#" class="text-[#a2a2a2] text-[16px] leading-[20px]">База знаний</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#a2a2a2] text-[16px] leading-[20px]">FAQ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="header-menu__item   py-[7px] relative px-[10px]  relative text-[#232323]">
+                    <a href="#"
+                       class="header-menu__link text-[22px] leading-[24px] text-[#fff] font-[500]">Новости</a>
+                    <span class="absolute left-0 bottom-[29px] w-[0] h-[2px]  bg-[#DC2E3F] rounded-[5px]"></span>
+                </li>
+            </ul>
+        </nav>
+        <div class="py-[20px] border-t-[1px] border-b-[1px] border-[#3D3D3D] text-center">
+            <a href="#"
+               class="block mb-1 footer-phone  font-[500] text-[22px] leading-[51px] tracking-[-0.03em] text-white whitespace-nowrap">+7
+                499 112-46-68</a>
+            <a href="#"
+               class="footer-email  font-[500]  border-b-2 border-dotted text-[22px] leading-[51px]  text-white whitespace-nowrap">support@VDSka.ru</a>
+        </div>
+        <div class="flex gap-[8px] justify-center items-center py-[20px]">
+            <button
+                    class="btn btn-primary-500 text-white transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)] text-xs   rounded-md  lg:gap-3  font-extrabold lg:pr-6 pl-4 pr-4 py-2.5 bg-primary-500 flex items-center uppercase">
+                <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                            d="M10.8691 11.4371L8.33749 10.1635C8.09872 10.0432 7.95031 9.8016 7.95031 9.5328V8.6312C8.011 8.55653 8.07487 8.47147 8.14085 8.3776C8.4692 7.91093 8.73236 7.39147 8.92369 6.8312C9.29762 6.65867 9.54037 6.28667 9.54037 5.86667V4.8C9.54037 4.5432 9.44497 4.2944 9.27536 4.1V2.6816C9.2902 2.53493 9.34851 1.66187 8.72096 0.9416C8.17663 0.3168 7.29335 0 6.09524 0C4.89713 0 4.01385 0.3168 3.46952 0.941333C2.84197 1.6616 2.90027 2.53493 2.91511 2.6816V4.1C2.74551 4.2944 2.6501 4.5432 2.6501 4.8V5.86667C2.6501 6.1912 2.79665 6.49387 3.04682 6.69573C3.28957 7.66293 3.7976 8.39173 3.97516 8.6256V9.508C3.97516 9.76613 3.83523 10.0029 3.61024 10.1267L1.24608 11.4243C0.477284 11.8464 0 12.6555 0 13.5365V14.4C0 15.6656 3.98708 16 6.09524 16C8.2034 16 12.1905 15.6656 12.1905 14.4V13.5885C12.1905 12.6717 11.684 11.8472 10.8691 11.4371Z"
+                            fill="white"/>
+                </svg>
+                регистрация
+            </button>
+            <button
+                    class="btn btn--500  text-white text-xs  rounded-md  gap-3  transition-all hover:shadow-[0px_24px_64px_rgba(0,0,0,0.2)] font-extrabold pr-6 pl-4 py-2.5 bg-dark-500 flex items-center uppercase">
+                <svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M5.25 0C4.65326 0 4.08097 0.237053 3.65901 0.65901C3.23705 1.08097 3 1.65326 3 2.25V12.75C3 13.3467 3.23705 13.919 3.65901 14.341C4.08097 14.7629 4.65326 15 5.25 15H9.75C10.3467 15 10.919 14.7629 11.341 14.341C11.7629 13.919 12 13.3467 12 12.75V2.25C12 1.65326 11.7629 1.08097 11.341 0.65901C10.919 0.237053 10.3467 0 9.75 0H5.25ZM6.21975 4.71975C6.3604 4.57915 6.55113 4.50016 6.75 4.50016C6.94887 4.50016 7.1396 4.57915 7.28025 4.71975L9.53025 6.96975C9.67085 7.1104 9.74984 7.30113 9.74984 7.5C9.74984 7.69887 9.67085 7.8896 9.53025 8.03025L7.28025 10.2802C7.1388 10.4169 6.94935 10.4925 6.7527 10.4908C6.55605 10.489 6.36794 10.4102 6.22889 10.2711C6.08983 10.1321 6.01095 9.94395 6.00924 9.7473C6.00754 9.55065 6.08313 9.3612 6.21975 9.21975L7.1895 8.25H0.75C0.551088 8.25 0.360322 8.17098 0.21967 8.03033C0.0790178 7.88968 0 7.69891 0 7.5C0 7.30109 0.0790178 7.11032 0.21967 6.96967C0.360322 6.82902 0.551088 6.75 0.75 6.75H7.1895L6.21975 5.78025C6.07915 5.6396 6.00016 5.44887 6.00016 5.25C6.00016 5.05113 6.07915 4.8604 6.21975 4.71975Z"
+                          fill="white"/>
+                </svg>
+
+                вход
+            </button>
         </div>
     </div>
 </header>
@@ -729,7 +822,7 @@
     <div class="bg-white overflow-hidden drop-shadow-[0_14px_44px_rgba(0,0,0,0.08)]  relative">
         <div class="wrapper">
             <div
-                    class="flex overflow-hidden  sm:gap-[16px] gap-[26px] sm:py-[34px] py-[70px]   lg:max-w-full max-w-[453px] m-auto w-full sm:flex-row flex-col items-start justify-center  uppercase  text-[18px] leading-[22px] text-dark-500 sm:items-start items-center">
+                    class="flex overflow-hidden  sm:gap-[16px] gap-[26px] sm:py-[34px] py-[70px]   lg:max-w-full max-w-[453px] m-auto w-full sm:flex-row flex-col items-start justify-center  uppercase  text-[18px] leading-[22px] text-dark-500  lg:items-center md:items-start items-center">
                 <svg class="min-w-[20px] sm:w-[20px] sm-h-[20px] w-[32px] h-[32px]" width="20" height="20"
                      viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -751,8 +844,8 @@
         <div class="wrapper">
             <div class="swiper advSwiper lg:px-0 md:px-[43px] px-[21px] pt-[60px] lg:pb-[68px] pb-[109px]">
                 <div class="swiper-wrapper  flex justify-between items-end">
-                    <div class="swiper-slide pt-[12px] pb-[10px] w-[270px]">
-                        <div class="adv-item relative  z-1   bg-white shadow rounded-[5px] ">
+                    <div class="swiper-slide pt-[12px] pb-[10px] w-[270px] ">
+                        <div class="adv-item relative  z-1   bg-white shadow rounded-[5px]  hover:top-[-10px] cursor-pointer transition-all ">
                             <div class="adv-item__img flex justify-center items-center mb-[12px] relative h-[140px]">
                                 <img src="img/svg-1.svg" class="block absolute top-[-12px]" alt="">
                             </div>
@@ -764,7 +857,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide pt-[12px] pb-[10px] w-[270px]">
-                        <div class="adv-item relative  z-1  bg-white shadow rounded-[5px] ">
+                        <div class="adv-item relative  z-1  bg-white shadow rounded-[5px] hover:top-[-10px] cursor-pointer transition-all">
                             <div class="adv-item__img flex justify-center items-center mb-[12px] relative h-[140px]">
                                 <img src="img/svg-2.svg" class="block absolute top-[-12px]" alt="">
                             </div>
@@ -778,7 +871,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide  pt-[12px] pb-[10px] w-[270px]">
-                        <div class="adv-item relative  z-1   bg-white shadow rounded-[5px] ">
+                        <div class="adv-item relative  z-1   bg-white shadow rounded-[5px] hover:top-[-10px] cursor-pointer transition-all">
                             <div class="adv-item__img flex justify-center items-center mb-[12px] relative h-[140px]">
                                 <img src="img/svg-3.svg" class="block absolute top-[-12px]" alt="">
                             </div>
@@ -791,7 +884,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide pt-[12px]  pb-[10px] w-[270px] ">
-                        <div class="adv-item relative  z-1  bg-white shadow rounded-[5px] ">
+                        <div class="adv-item relative  z-1  bg-white shadow rounded-[5px] hover:top-[-10px] cursor-pointer transition-all">
                             <div class="adv-item__img flex justify-center items-center mb-[12px] relative h-[140px]">
                                 <img src="img/svg-4.svg" class="block absolute top-[-12px]" alt="">
                             </div>
@@ -850,7 +943,7 @@
                             <h2 class="font-[500] text-[22px] leading-[27px] text-white max-w-[225px] mb-[30px] md:hidden block">
                                 Калькулятор
                                 стоимости сервера</h2>
-                            <div class="flex lg:flex-row flex-col lg:gap-[30px] gap-[14px] justify-between mb-[26px]">
+                            <div class="flex lg:flex-row flex-col lg:gap-[30px] gap-[14px] justify-between sm:mb-[26px] mb-[46px]">
                                 <div class="lg:max-w-[157px] flex lg:gap-[27px] md:gap-[17px] gap-[27px] tracking-[-0.03em] items-center w-full text-white text-[14px] leading-[17px] font-[700]">
                                     <svg class="min-w-[29px]" width="26" height="26" viewBox="0 0 26 26" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
@@ -861,11 +954,43 @@
                                     </svg>
                                     <div>Количество ядер <span class="text-primary-500">?</span></div>
                                 </div>
-                                <div class="md:max-w-[264px] w-full md:pl-0 pl-[55px] rounded-[6px] border-[1px] border-solid  border-[#6A6A6A] ">
+                                <div class="md:max-w-[264px] w-full md:pl-0 pl-[55px] rounded-[6px] ">
+                                    <div class="w-[260px] h-[4px]  relative flex items-center">
+                                        <div class="w-[100%] h-[100%] bg-[#6a6a6a] left-0 absolute z-[1]"></div>
+                                        <div class="w-[60%] h-[100%] bg-[#E3E3E3] left-0 absolute z-[2]"></div>
+                                        <div class="bg-white w-[18px] h-[18px] border-[6px] border-[#DC2E3F] border-solid rounded-full absolute left-[calc(60%-18px)] cursor-pointer z-[3]"></div>
+                                        <ul class="w-full flex justify-between absolute text-[#A1A1A1] pt-[43px] text-[12px] leading-[15px]">
+                                            <li class="relative hover:text-white cursor-pointer">1
+                                            <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">2
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">3
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">4
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">5
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">6
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">7
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  left-0"></span>
+                                            </li>
+                                            <li class="relative hover:text-white cursor-pointer">8
+                                                <span class="absolute h-[10px] w-[1px] bg-[#6a6a6a]  top-[-19px]  right-0"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
                                 </div>
                             </div>
-                            <div class="flex lg:flex-row flex-col lg:gap-[30px] gap-[14px] justify-between lg:mb-[43px] mb-[33px]">
-                                <div class="lg:max-w-[157px] flex lg:gap-[27px] md:gap-[17px] gap-[27px] tracking-[-0.03em] items-center w-full text-white text-[14px] leading-[17px] font-[700]">
+                            <div class="flex lg:flex-row flex-col lg:gap-[30px] gap-[14px] justify-between lg:mb-[43px] mb-[33px] ">
+                                <div class="lg:max-w-[157px]  flex lg:gap-[27px] md:gap-[17px] gap-[27px] tracking-[-0.03em] items-center w-full text-white text-[14px] leading-[17px] font-[700]">
                                     <svg class="min-w-[29px]" width="29" height="29" viewBox="0 0 29 29" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1_1035)">
@@ -896,15 +1021,15 @@
                                 <div class="md:max-w-[264px] w-full md:pl-0 pl-[55px] ">
                                     <div class="relative inline-block text-left w-full">
                                         <div class="dropdown group relative z-[3]">
-                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium text-white group-hover:bg-white group-hover:text-black group-hover:rounded-[6px_6px_0_0] group-hover:text-[700]">
+                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium text-white  group-hover:font-[600]">
                                                 <span class="mr-1">8 Гб</span>
-                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-black group-hover:rotate-[180deg]"
+                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-white"
                                                      width="8" height="8" viewBox="0 0 8 8" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0 4.04527L1.24885 2.86379L3.22581 4.81825V0H5.03225V4.5632L6.75113 2.86379L8 4.04527L4.00007 8L0 4.04527Z"/>
                                                 </svg>
                                             </button>
-                                            <div class="dropdown-menu hidden group-hover:block z-3  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                            <div class="dropdown-menu hidden  z-3  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                                                 <div class="" role="none">
                                                     <a href="#"
                                                        class="relative items-center justify-center flex border-solid border-t-[1px] border-[#d9d9d9] text-[#757575] h-[36px] text-[14px] leading-[32px] tracking-[-0.03em] block"
@@ -928,7 +1053,7 @@
 
                                         <!--
                                           Dropdown menu, show/hide based on menu state.
-    
+
                                           Entering: "transition ease-out duration-100"
                                             From: "transform opacity-0 scale-95"
                                             To: "transform opacity-100 scale-100"
@@ -974,7 +1099,7 @@
 
                                             <label for="toggleC" class="flex items-center cursor-pointer">
                                                 <!-- toggle -->
-                                                <div class=" font-[400] text-[14px] leading-[17px] text-white ">
+                                                <div class=" font-[400] hover:font-[600] transition-all text-[14px] leading-[17px] text-white ">
                                                     SDD
                                                 </div>
                                                 <div class="relative mx-[8px]">
@@ -986,7 +1111,7 @@
                                                     <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
                                                 </div>
                                                 <!-- label -->
-                                                <div class=" font-[400] text-[14px] leading-[17px] text-white ">
+                                                <div class=" font-[400] hover:font-[600] transition-all text-[14px] leading-[17px] text-white ">
                                                     NVMe
                                                 </div>
                                             </label>
@@ -994,11 +1119,11 @@
                                         </div>
                                         <!--toggle block end-->
                                         <div class="flex p-[4px] rounded-full rounded-[40px] items-center gap-[12px] justify-between bg-[#6A6A6A]">
-                                            <button class="font-[400] text-[14px] leading-[17px] text-[#303030] bg-[#BDBCBC] rounded-full min-w-[16px] h-[16px]">
+                                            <button class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-[#303030] bg-[#BDBCBC] rounded-full min-w-[16px] h-[16px]">
                                                 -
                                             </button>
-                                            <span class="font-[700] text-[14px] leading-[17px] text-white">20 Гб</span>
-                                            <button class="font-[400] text-[14px] leading-[17px] text-white bg-primary-500 rounded-full min-w-[16px] h-[16px]">
+                                            <span class="font-[700] hover:scale-110 cursor-pointer transition-all text-[14px] leading-[17px] text-white">20 Гб</span>
+                                            <button class="font-[400] hover:font-[600] transition-all text-[14px] leading-[17px] text-white bg-primary-500 rounded-full min-w-[16px] h-[16px]">
                                                 +
                                             </button>
                                         </div>
@@ -1026,7 +1151,12 @@
                                 <div class="md:max-w-[264px] w-full md:pl-0 pl-[55px] rounded-[6px]  ">
                                     <div class="relative inline-block text-left w-full">
                                         <div class="dropdown group relative">
-                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium text-white group-hover:bg-white group-hover:text-black group-hover:rounded-[6px_6px_0_0] group-hover:text-[700]">
+                                            <!--
+                                             Active
+                                             group-hover:bg-white group-hover:text-black group-hover:rounded-[6px_6px_0_0] group-hover:text-[700]
+                                             -->
+                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium group-hover:font-[600] text-white ">
+
                                                 <svg class="absolute left-[16px]" width="13" height="13"
                                                      viewBox="0 0 13 13"
                                                      fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1038,13 +1168,21 @@
                                                           fill="#D80027"/>
                                                 </svg>
                                                 <span class="mr-1">Россия</span>
-                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-black group-hover:rotate-[180deg]"
+                                                <!--
+                                                    Active
+                                                    group-hover:fill-black group-hover:rotate-[180deg]
+                                            -->
+                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-white"
                                                      width="8" height="8" viewBox="0 0 8 8" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0 4.04527L1.24885 2.86379L3.22581 4.81825V0H5.03225V4.5632L6.75113 2.86379L8 4.04527L4.00007 8L0 4.04527Z"/>
                                                 </svg>
                                             </button>
-                                            <div class="dropdown-menu hidden group-hover:block  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                            <!--
+                                                   Active
+                                                  group-hover:block
+                                           -->
+                                            <div class="dropdown-menu hidden   w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
 
                                                 <div class="" role="none">
                                                     <a href="#"
@@ -1099,7 +1237,7 @@
 
                                         <!--
                                           Dropdown menu, show/hide based on menu state.
-    
+
                                           Entering: "transition ease-out duration-100"
                                             From: "transform opacity-0 scale-95"
                                             To: "transform opacity-100 scale-100"
@@ -1145,17 +1283,17 @@
                                             </div>
                                         </div>
                                         <div class="swiper-prev absolute top-[50%] left-[17px] translate-y-[-50%] z-[3] cursor-pointer">
-                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            <svg class="fill-[#BDBCBC] hover:fill-[#fff]" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M4.94341 10L6.42027 8.43894L3.97718 5.96774L10 5.96774L10 3.70969L4.296 3.70969L6.42027 1.56108L4.94341 -2.21031e-07L2.18561e-07 4.99992L4.94341 10Z"
-                                                      fill="#BDBCBC"/>
+                                                      />
                                             </svg>
                                         </div>
                                         <div class="swiper-next absolute top-[50%] right-[17px] translate-y-[-50%] z-[3] cursor-pointer">
-                                            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
+                                            <svg class="fill-[#BDBCBC] hover:fill-[#fff]" width="10" height="10" viewBox="0 0 10 10" fill="none"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M5.05659 10L3.57973 8.43894L6.02282 5.96774L-1.76256e-07 5.96774L-2.74958e-07 3.70969L5.704 3.70969L3.57973 1.56108L5.05659 -2.21031e-07L10 4.99992L5.05659 10Z"
-                                                      fill="#BDBCBC"/>
+                                                      />
                                             </svg>
                                         </div>
                                     </div>
@@ -1168,15 +1306,15 @@
                                 <div class="md:max-w-[264px] max-w-[230px] w-full rounded-[6px]  bg-[#6A6A6A] ">
                                     <div class="relative inline-block text-left w-full">
                                         <div class="dropdown group relative">
-                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium text-white group-hover:bg-white group-hover:text-black group-hover:rounded-[6px_6px_0_0] group-hover:text-[700]">
+                                            <button class="inline-flex relative justify-center items-center w-full rounded-md  shadow-sm px-4 pt-[6px] pb-[7px] bg-[#6A6A6A] text-[14px] leading-[17px] font-medium text-white group-hover:font-[600]">
                                                 <span class="mr-1"> Windows 2019</span>
-                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-black group-hover:rotate-[180deg]"
+                                                <svg class="absolute right-[16px] fill-[#bcbcbc] group-hover:fill-white"
                                                      width="8" height="8" viewBox="0 0 8 8" fill="none"
                                                      xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M0 4.04527L1.24885 2.86379L3.22581 4.81825V0H5.03225V4.5632L6.75113 2.86379L8 4.04527L4.00007 8L0 4.04527Z"/>
                                                 </svg>
                                             </button>
-                                            <div class="dropdown-menu hidden group-hover:block  w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                            <div class="dropdown-menu hidden w-full origin-top-right text-center absolute right-0 overflow-hidden rounded-[0_0_6px_6px] shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
 
                                                 <div class="" role="none">
                                                     <a href="#"
@@ -1211,11 +1349,15 @@
                         При оплате за 3 месяца
                         скидка 3%,
                         за 6 месяцев - 5%, год скидка - 10%.</p>
-                    <div class="mb-[20px] font-[600] text-[13px] leading-[16px] uppercase text-dark-400 py-[18px] pl-[38px] pr-[26px] rounded-[6px] border-solid border-[1px] border-[#B3B3B3] max-w-[327px]">
+                    <div class="mb-[20px] font-[600] text-[13px] leading-[16px] uppercase text-dark-400 py-[18px] pl-[38px] pr-[26px] rounded-[6px] border-solid border-[1px] border-[#B3B3B3] max-w-[327px] hover:bg-[#303030] hover:border-[#303030] hover:text-white transition-all group cursor-pointer ">
                         <div class="flex justify-between items-center">
                             <div>Период: 3 месяца <span
                                     class="text-primary-500">-3%</span></div>
-                            <img src="img/svg/btn-arrow-grey.svg" alt="arrow" class=""></div>
+                            <svg class="fill-[#979797] group-hover:fill-white" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 5.05659L1.56106 3.57973L4.03226 6.02282L4.03226 0L6.29031 0L6.29031 5.704L8.43892 3.57973L10 5.05659L5.00008 10L0 5.05659Z" />
+                            </svg>
+
+                        </div>
                     </div>
                     <div class="flex-1"></div>
 
@@ -1244,7 +1386,7 @@
                     <p class=" text-dark-400 sm:text-[18px]  text-[16px] sm:max-w-full lg:max-w-full md:max-w-[532px] max-w-[355px] sm:leading-[22px] leading-[20px] sm:mb-[0px] m-auto mb-0">
                         Ниже представлены готовые тарифы. Либо
                         вы можете собрать нужный вам тариф в <span
-                            class=" border-b-[1px] border-dashed border-primary-500 ">калькуляторе</span>.</p>
+                            class=" border-b-[1px] border-dashed hover:border-solid cursor-pointer border-primary-500 ">калькуляторе</span>.</p>
                 </div>
                 <div class="tariffs-list sm:mb-0 mb-[39px] pt-[20px]">
                     <div class="swiper tariffsSwiper lg:px-[20px] md:px-[43px] px-[21px] pt-[20px]">
@@ -1278,7 +1420,7 @@
 
                                         <label for="toggleB" class="flex items-center cursor-pointer">
                                             <!-- toggle -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400 ">
+                                            <div class=" font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400 ">
                                                 SDD
                                             </div>
                                             <div class="relative mx-[8px]">
@@ -1290,7 +1432,7 @@
                                                 <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
                                             </div>
                                             <!-- label -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400">
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 NVMe
                                             </div>
                                         </label>
@@ -1333,7 +1475,7 @@
 
                                         <label for="toggleB2" class="flex items-center cursor-pointer">
                                             <!-- toggle -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400 ">
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 SDD
                                             </div>
                                             <div class="relative mx-[8px]">
@@ -1345,7 +1487,7 @@
                                                 <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
                                             </div>
                                             <!-- label -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400">
+                                            <div class=" font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 NVMe
                                             </div>
                                         </label>
@@ -1392,7 +1534,7 @@
 
                                         <label for="toggleB3" class="flex items-center cursor-pointer">
                                             <!-- toggle -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400 ">
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 SDD
                                             </div>
                                             <div class="relative mx-[8px]">
@@ -1404,7 +1546,7 @@
                                                 <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
                                             </div>
                                             <!-- label -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400">
+                                            <div class=" font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 NVMe
                                             </div>
                                         </label>
@@ -1437,7 +1579,7 @@
                                                     src="img/svg/tarif-3.svg" alt="">40 Гб
                                             </div>
                                         </div>
-                                        <div class="text-primary-900 text-[18px] leading-[22px] font-[600] flex justify-center items-center w-full max-w-[84px] h-[84px] border-[1px] border-primary-900 border-dashed rounded-full ">
+                                        <div class="text-primary-900 text-[18px] leading-[22px] font-[600] flex justify-center items-center w-full max-w-[84px] h-[84px] border-[1px] border-primary-900  border-dashed rounded-full ">
                                             820 ₽
                                         </div>
                                     </div>
@@ -1448,7 +1590,7 @@
 
                                         <label for="toggleB4" class="flex items-center cursor-pointer">
                                             <!-- toggle -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400 ">
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 SDD
                                             </div>
                                             <div class="relative mx-[8px]">
@@ -1460,7 +1602,7 @@
                                                 <div class="dot absolute left-[6px] top-[50%] translate-y-[-50%] bg-primary-500 border-[3px] border-solid border-white w-[15px] h-[15px] rounded-full transition"></div>
                                             </div>
                                             <!-- label -->
-                                            <div class=" font-[600] text-[14px] leading-[17px] text-dark-400">
+                                            <div class="font-[400] hover:font-[600] text-[14px] leading-[17px] text-dark-400">
                                                 NVMe
                                             </div>
                                         </label>
@@ -1829,7 +1971,7 @@
                         </div>
                     </div>
                     <div class="swiper-pagination absolute lg:bottom-[97px] md:bottom-[66px]  bottom-[75px] lg:left-auto lg:text-center text-left md:left-[85px]  left-[21px] w-full"></div>
-                    <div class="lg:hidden flex gap-[9px] absolute md:right-[70px] right-[33px] md:bottom-[72px] bottom-[80px] ">
+                    <div class="lg:hidden flex gap-[9px] absolute md:right-[70px] right-[33px] md:bottom-[72px] bottom-[80px] z-[3]">
                         <div class="swiper-prev w-[28px] h-[28px] bg-primary-500 rounded-full flex items-center justify-center">
                             <svg width="10" height="10" viewBox="0 0 10 10" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -1846,7 +1988,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=" lg:hidden flex gap-[9px] absolute md:right-[70px] right-[33px] md:bottom-[72px] bottom-[80px] ">
+                <div class=" lg:hidden flex gap-[9px] absolute md:right-[70px] right-[33px] md:bottom-[72px] bottom-[80px] z-[3]">
                     <div class="swiper-prev w-[28px] h-[28px] bg-primary-500 rounded-full flex items-center justify-center">
                         <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.36463 9.94092L6.70249 8.52678L4.48935 6.28816L9.94531 6.28816L9.94531 4.24263L4.77816 4.24263L6.70249 2.29625L5.36463 0.882093L0.886488 5.41143L5.36463 9.94092Z"
@@ -1874,7 +2016,7 @@
                     <div class="title font-[500] sm:text-[28px] text-[22px] sm:leading-[34px] leading-[27px] text-dark-400">
                         Новости сервиса
                     </div>
-                    <a class="more sm:block hidden font-[500] text-[14px] leading-[17px] text-black border-b-[1px] border-dashed border-primary-500">Все
+                    <a class="more sm:block hidden font-[500] text-[14px] leading-[17px] text-black border-b-[1px] border-dashed hover:border-solid cursor-pointer border-primary-500">Все
                         новости</a>
                 </div>
             </div>
@@ -1904,7 +2046,7 @@
                                         <img src="img/svg/date.svg" alt="">12.05.2021
                                     </div>
                                     <a href="#"
-                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center">
+                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)]">
                                         <img src="img/svg/btn-more__big.svg" alt="">
                                     </a>
                                 </div>
@@ -1928,7 +2070,7 @@
                                         <img src="img/svg/date.svg" alt="">12.05.2021
                                     </div>
                                     <a href="#"
-                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center">
+                                       class="absolute sm:bottom-[30px] bottom-[77px] sm:right-[24px] right-[33px] w-[34px] h-[34px] rounded-full bg-primary-800 flex items-center justify-center transition-all hover:shadow-[0px_24px_64px_rgba(241,_56,_76,0.2)]">
                                         <img src="img/svg/btn-more__big.svg" alt="">
                                     </a>
                                 </div>
@@ -2044,25 +2186,25 @@
                         <ul class="footer-menu__list font-[400] text-[13px] leading-[34px] tracking-[-0.03em] text-[#2f2f2f]">
 
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Домой</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Домой</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Облачный VPS</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Облачный VPS</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">О нас</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">О нас</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">FAQ по VPS</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">FAQ по VPS</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Партнерская программа</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Партнерская программа</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Регистрация</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Регистрация</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Авторизация</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Авторизация</a>
                             </li>
                         </ul>
                     </div>
@@ -2073,33 +2215,33 @@
                         </div>
                         <ul class="footer-menu__list font-[400] text-[13px] leading-[34px] tracking-[-0.03em] text-[#2f2f2f]">
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">
                                     Партнерская программа
                                 </a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Договор-оферта</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Договор-оферта</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Политика возврата средств</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Политика возврата средств</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Политика конфиденциальности</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Политика конфиденциальности</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Испытание на скорость</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Испытание на скорость</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">условия и положения</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">условия и положения</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Программа вознаграждения</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Программа вознаграждения</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">Согласие на использование</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">Согласие на использование</a>
                             </li>
                             <li class="footer-menu__item">
-                                <a href="#" class="footer-menu__link">файлов cookie</a>
+                                <a href="#" class="text-[#2f2f2f] hover:text-[#303030]">файлов cookie</a>
                             </li>
                         </ul>
                     </div>
