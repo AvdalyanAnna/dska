@@ -56,3 +56,14 @@ var tariffsSwiper = new Swiper(".tariffsSwiper", {
         prevEl: ".tariffsSwiper .swiper-prev",
     },
 });
+
+const headerItem = document.querySelectorAll('.header-menu__item')
+const headerShow = document.querySelector('.header-menu-show-item')
+
+headerItem.forEach(item => {
+    item.addEventListener('click', e => {
+        item.classList.toggle('bg-[#f5f5f5]')
+        headerShow.classList.toggle('hidden')
+        headerShow.classList.toggle('block')
+    });
+});

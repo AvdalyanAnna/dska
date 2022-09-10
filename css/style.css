@@ -815,6 +815,14 @@ video {
   bottom: 0px;
 }
 
+.bottom-\[0px\] {
+  bottom: 0px;
+}
+
+.bottom-\[25px\] {
+  bottom: 25px;
+}
+
 .z-\[1\] {
   z-index: 1;
 }
@@ -2341,6 +2349,10 @@ video {
 
 .pt-\[40px\] {
   padding-top: 40px;
+}
+
+.pb-\[33px\] {
+  padding-bottom: 33px;
 }
 
 .text-left {
